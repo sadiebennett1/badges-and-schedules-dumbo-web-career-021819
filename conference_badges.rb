@@ -22,6 +22,7 @@ def printer(arr)
   badges = batch_badge_creator(arr)
   badges.each do |badge|
     puts badge
+  end
   assigns = assign_rooms(arr)
   assigns.each do |mesg|
     puts mesg
