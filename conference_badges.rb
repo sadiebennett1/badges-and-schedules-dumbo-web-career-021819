@@ -10,7 +10,7 @@ def batch_badge_creator(arr)
   return messages
 end
 
-assign_rooms(speakers)
+def assign_rooms(speakers)
   room_mesg = []
   speakers.each_with_index do |name, idx|
     roomnum = idx + 1
